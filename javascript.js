@@ -86,7 +86,7 @@ function largnumber() {
 largnumber();
 */
 
-
+//////////////////////////add many elements on an array 
 
 var arr =[];
 
