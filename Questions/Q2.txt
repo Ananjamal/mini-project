@@ -1,0 +1,13 @@
+var a = parseInt(prompt("Enter your first num:"));
+var b = parseInt(prompt("Enter your sec num:"));
+var c = parseInt(prompt("Enter your third num:"));
+var d = parseInt(prompt("Enter your foruth num:"));
+var e = parseInt(prompt("Enter your fift num:"));
+
+function avg(a,b,c,d,e){
+    var add = a+b+c+d+e ;
+    var avg = add/5;
+    return avg;
+  }
+
+  document.write(avg(a,b,c,d,e));

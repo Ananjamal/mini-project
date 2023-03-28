@@ -1,0 +1,10 @@
+var item = [25,77,88];
+
+function test(y) {
+    for (var  i = 0; i < item.length; i++) {
+         if (item[i] == y){    
+            document.write(i);
+         }
+    }  
+}
+test(88);

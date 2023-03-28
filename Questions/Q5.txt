@@ -1,0 +1,15 @@
+	var item = [88,50,90];
+function arrange(){
+    for (let i = 0; i < item.length; i++) {
+        for (let j = i + 1; j < item.length; j++) {
+            if (item[i] < item[j]) {
+                temp = item[i];
+                item[i] = item[j];
+                item[j] = temp;
+
+            }
+        }
+    }
+    document.write(item);
+}
+arrange();
